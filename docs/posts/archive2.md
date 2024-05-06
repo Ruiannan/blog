@@ -6,6 +6,7 @@ tag:
   - WWII
 archive: true
 ---
+
 # Archive Article2
 
 ## 文章的中心思想
@@ -22,4 +23,4 @@ Here is the content.
 let a = 4;
 ```
 
-![1714987000069](image/archive2/1714987000069.png)
+![1714988992412](image/archive2/1714988992412.png)
