@@ -8,7 +8,7 @@ actions:
     type: primary
 
   - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+    link: https://ruiannan.github.io/
     type: secondary
 # features:
 # - title: Simplicity First
