@@ -38,6 +38,7 @@ export const routes = Object.fromEntries([
   ["/tag/tag-e/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/tag/tag-e/index.html.js"), meta: {"title":"Tag tag E"} }],
   ["/article/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/article/index.html.js"), meta: {"title":"Articles"} }],
   ["/timeline/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/timeline/index.html.js"), meta: {"title":"Timeline"} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {
