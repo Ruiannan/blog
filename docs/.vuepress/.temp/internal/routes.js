@@ -1,7 +1,7 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"首页"} }],
+  ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"my blog"} }],
   ["/get-started.html", { loader: () => import(/* webpackChunkName: "get-started.html" */"/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/get-started.html.js"), meta: {"title":"Get Started"} }],
   ["/posts/TS%E5%9F%BA%E7%A1%80.html", { loader: () => import(/* webpackChunkName: "TS基础.html" */"/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/posts/TS基础.html.js"), meta: {"_blog":{"title":"TS 基础","author":"","date":"2024-05-06T00:00:00.000Z","category":["TS"],"tag":["TS"],"excerpt":"\n<h2>TS 基础类型和基本用法</h2>\n<ul>\n<li>哈哈哈哈哈哈，我居然是简介</li>\n<li>dsfsdfsd</li>\n</ul>\n<p><code>let a:string = 'hahahha'</code></p>\n<h3>这个是文章的第一段</h3>\n<p>嘎嘎嘎嘎，我是文章的内容哎</p>\n"},"title":"TS 基础"} }],
   ["/posts/archive1.html", { loader: () => import(/* webpackChunkName: "archive1.html" */"/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/posts/archive1.html.js"), meta: {"_blog":{"title":"这个是文章的 title","author":"","date":"2024-04-29T00:00:00.000Z","category":["History"],"tag":["TS"],"excerpt":"\n<h2>这个是文章的简介</h2>\n<ul>\n<li>哈哈哈哈哈哈，我居然是简介</li>\n<li>dsfsdfsd</li>\n</ul>\n<p><code>let a:string = 'hahahha'</code></p>\n<h3>这个是文章的第一段</h3>\n<p>嘎嘎嘎嘎，我是文章的内容哎</p>\n"},"title":"这个是文章的 title"} }],
