@@ -8,7 +8,7 @@ export default defineUserConfig({
 
   title: "博客",
   description: "我的技术博客",
-  base: "/",
+  base: "/blog/",
 
   theme: defaultTheme({
     logo: "https://vuejs.press/images/hero.png",
