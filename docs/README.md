@@ -1,14 +1,14 @@
 ---
 home: true
-title: my blog
-heroImage: https://vuejs.press/images/hero.png
+title: 首页
+heroImage: https://avatars.githubusercontent.com/u/32606602?v=4
 actions:
   - text: Get Started
     link: /getting-started.html
     type: primary
 
   - text: Introduction
-    link: https://ruiannan.github.io/
+    link: https://github.com/Ruiannan
     type: secondary
 # features:
 # - title: Simplicity First

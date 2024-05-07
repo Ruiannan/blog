@@ -11,6 +11,15 @@ devDependencies:
   '@vuepress/plugin-blog':
     specifier: ^2.0.0-rc.11
     version: 2.0.0-rc.26(vuepress@2.0.0-rc.9)
+  '@vuepress/plugin-copy-code':
+    specifier: 2.0.0-rc.26
+    version: 2.0.0-rc.26(vuepress@2.0.0-rc.9)
+  '@vuepress/plugin-reading-time':
+    specifier: 2.0.0-rc.26
+    version: 2.0.0-rc.26(vuepress@2.0.0-rc.9)
+  '@vuepress/plugin-search':
+    specifier: 2.0.0-rc.26
+    version: 2.0.0-rc.26(vuepress@2.0.0-rc.9)
   '@vuepress/theme-default':
     specifier: ^2.0.0-rc.11
     version: 2.0.0-rc.26(vuepress@2.0.0-rc.9)
@@ -1155,6 +1164,30 @@ packages:
     dependencies:
       prismjs: 1.29.0
       vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.7)(vue@3.4.25)
+    dev: true
+
+  /@vuepress/plugin-reading-time@2.0.0-rc.26(vuepress@2.0.0-rc.9):
+    resolution: {integrity: sha512-i3x02MfCeZ6/JT1H4+ijHqclmDOmGYw6vuH43PHQhDhZi1u5wvwlzskaoMkIGbqI9RnBS2uVmeAc38sEdtLzoQ==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.9
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.26(vuepress@2.0.0-rc.9)
+      vue: 3.4.25
+      vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.7)(vue@3.4.25)
+    transitivePeerDependencies:
+      - typescript
+    dev: true
+
+  /@vuepress/plugin-search@2.0.0-rc.26(vuepress@2.0.0-rc.9):
+    resolution: {integrity: sha512-fp2kDlkn+WUXSFuVefITKykDRxdN1rvkA3mpYl+1CKHDTOJ7VCB5TfeZmEcxqsdrL9PeUedtV5YMuFQ1sUbx/A==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.9
+    dependencies:
+      chokidar: 3.6.0
+      vue: 3.4.25
+      vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.7)(vue@3.4.25)
+    transitivePeerDependencies:
+      - typescript
     dev: true
 
   /@vuepress/plugin-seo@2.0.0-rc.26(vuepress@2.0.0-rc.9):

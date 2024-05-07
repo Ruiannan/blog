@@ -2,16 +2,20 @@ import { blogPlugin } from "@vuepress/plugin-blog";
 import { defaultTheme } from "@vuepress/theme-default";
 import { defineUserConfig } from "vuepress";
 import { viteBundler } from "@vuepress/bundler-vite";
+import { searchPlugin } from "@vuepress/plugin-search";
+import { copyCodePlugin } from "@vuepress/plugin-copy-code";
+import { readingTimePlugin } from "@vuepress/plugin-reading-time";
 
 export default defineUserConfig({
   lang: "zh-CN",
 
-  title: "博客",
-  description: "我的技术博客",
+  title: "记录美好生活",
+  description: "顺境多做事，逆境多读书",
   base: "/blog/",
+  head: ["link", { rel: "icon", href: "/images/profile.png" }],
 
   theme: defaultTheme({
-    logo: "https://vuejs.press/images/hero.png",
+    logo: "https://avatars.githubusercontent.com/u/32606602?v=4",
 
     navbar: [
       "/",
@@ -67,11 +71,11 @@ export default defineUserConfig({
           layout: "Category",
           itemLayout: "Category",
           frontmatter: () => ({
-            title: "Categories",
+            title: "分类",
             sidebar: false,
           }),
           itemFrontmatter: (name) => ({
-            title: `Category ${name}`,
+            title: `分类 ${name}`,
             sidebar: false,
           }),
         },
@@ -81,11 +85,11 @@ export default defineUserConfig({
           layout: "Tag",
           itemLayout: "Tag",
           frontmatter: () => ({
-            title: "Tags",
+            title: "标签",
             sidebar: false,
           }),
           itemFrontmatter: (name) => ({
-            title: `Tag ${name}`,
+            title: `标签 ${name}`,
             sidebar: false,
           }),
         },
@@ -98,7 +102,7 @@ export default defineUserConfig({
           filter: (page) => !page.frontmatter.archive,
           layout: "Article",
           frontmatter: () => ({
-            title: "Articles",
+            title: "文章",
             sidebar: false,
           }),
           // Sort pages with time and sticky
@@ -130,12 +134,30 @@ export default defineUserConfig({
             new Date(pageA.frontmatter.date).getTime(),
           layout: "Timeline",
           frontmatter: () => ({
-            title: "Timeline",
+            title: "时间轴",
             sidebar: false,
           }),
         },
       ],
       hotReload: true,
+    }),
+    searchPlugin({
+      locales: {
+        "/": {
+          placeholder: "搜索",
+        },
+      },
+    }),
+    copyCodePlugin({
+      locales: {
+        "/": {
+          // 覆盖复制按钮标签文字
+          copy: "复制此段代码",
+        },
+      },
+    }),
+    readingTimePlugin({
+      // 配置项
     }),
   ],
 
