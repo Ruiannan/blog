@@ -1,0 +1,16 @@
+import comp from "/Users/mac/Documents/我的项目/app/blog-starter/docs/.vuepress/.temp/pages/posts/TS基础一.html.vue"
+const data = JSON.parse("{\"path\":\"/posts/TS%E5%9F%BA%E7%A1%80%E4%B8%80.html\",\"title\":\"TS 类型\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2024-05-06T00:00:00.000Z\",\"category\":[\"TS\"],\"tag\":[\"TS\"],\"archive\":false,\"article\":true},\"headers\":[{\"level\":2,\"title\":\"基础类型\",\"slug\":\"基础类型\",\"link\":\"#基础类型\",\"children\":[{\"level\":3,\"title\":\"数字类型\",\"slug\":\"数字类型\",\"link\":\"#数字类型\",\"children\":[]},{\"level\":3,\"title\":\"字符串\",\"slug\":\"字符串\",\"link\":\"#字符串\",\"children\":[]},{\"level\":3,\"title\":\"布尔类型\",\"slug\":\"布尔类型\",\"link\":\"#布尔类型\",\"children\":[]},{\"level\":3,\"title\":\"枚举类型\",\"slug\":\"枚举类型\",\"link\":\"#枚举类型\",\"children\":[]},{\"level\":3,\"title\":\"any\",\"slug\":\"any\",\"link\":\"#any\",\"children\":[]},{\"level\":3,\"title\":\"unkown\",\"slug\":\"unkown\",\"link\":\"#unkown\",\"children\":[]},{\"level\":3,\"title\":\"void\",\"slug\":\"void\",\"link\":\"#void\",\"children\":[]},{\"level\":3,\"title\":\"undefined\",\"slug\":\"undefined\",\"link\":\"#undefined\",\"children\":[]},{\"level\":3,\"title\":\"never\",\"slug\":\"never\",\"link\":\"#never\",\"children\":[]},{\"level\":3,\"title\":\"Array\",\"slug\":\"array\",\"link\":\"#array\",\"children\":[]}]},{\"level\":2,\"title\":\"高级类型\",\"slug\":\"高级类型\",\"link\":\"#高级类型\",\"children\":[{\"level\":3,\"title\":\"union\",\"slug\":\"union\",\"link\":\"#union\",\"children\":[]},{\"level\":3,\"title\":\"literal\",\"slug\":\"literal\",\"link\":\"#literal\",\"children\":[]},{\"level\":3,\"title\":\"nullable\",\"slug\":\"nullable\",\"link\":\"#nullable\",\"children\":[]}]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"posts/TS基础一.md\",\"excerpt\":\"\\n<p>基础类型、高级类型</p>\\n<h2>基础类型</h2>\\n<h3>数字类型</h3>\\n<p>数字类型 number 可表示整数、浮点数、正负数</p>\\n<div class=\\\"language-typescript\\\" data-ext=\\\"ts\\\" data-title=\\\"ts\\\"><pre class=\\\"language-typescript\\\"><code><span class=\\\"token keyword\\\">let</span> num1<span class=\\\"token operator\\\">:</span> <span class=\\\"token builtin\\\">number</span> <span class=\\\"token operator\\\">=</span> <span class=\\\"token number\\\">10</span><span class=\\\"token punctuation\\\">;</span>\\n\\n<span class=\\\"token keyword\\\">let</span> num2<span class=\\\"token operator\\\">:</span> <span class=\\\"token builtin\\\">number</span> <span class=\\\"token operator\\\">=</span> <span class=\\\"token number\\\">10.56</span><span class=\\\"token punctuation\\\">;</span>\\n\\n<span class=\\\"token keyword\\\">let</span> num3<span class=\\\"token operator\\\">:</span> <span class=\\\"token builtin\\\">number</span> <span class=\\\"token operator\\\">=</span> <span class=\\\"token operator\\\">-</span><span class=\\\"token number\\\">10</span><span class=\\\"token punctuation\\\">;</span>\\n</code></pre></div>\",\"readingTime\":{\"minutes\":2.46,\"words\":737}}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

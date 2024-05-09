@@ -8,7 +8,9 @@ archive: false
 article: true
 ---
 
-# TS 类型
+# TS 类型一
+
+基础类型、高级类型
 
 ## 基础类型
 

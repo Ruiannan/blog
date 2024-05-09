@@ -43,7 +43,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "TS 类型",
+    "title": "TS 类型一",
     "headers": [
       {
         "level": 2,
@@ -153,7 +153,71 @@ export const searchIndex = [
         ]
       }
     ],
-    "path": "/posts/TS%E5%9F%BA%E7%A1%80.html",
+    "path": "/posts/1TS%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "TS 基本类型二",
+    "headers": [
+      {
+        "level": 3,
+        "title": "类型适配",
+        "slug": "类型适配",
+        "link": "#类型适配",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "函数类型",
+        "slug": "函数类型",
+        "link": "#函数类型",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "对象类型 object",
+        "slug": "对象类型-object",
+        "link": "#对象类型-object",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "接口",
+        "slug": "接口",
+        "link": "#接口",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "类",
+        "slug": "类",
+        "link": "#类",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "访问修饰符",
+        "slug": "访问修饰符",
+        "link": "#访问修饰符",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "模块",
+        "slug": "模块",
+        "link": "#模块",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "泛型",
+        "slug": "泛型",
+        "link": "#泛型",
+        "children": []
+      }
+    ],
+    "path": "/posts/2TS%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.html",
     "pathLocale": "/",
     "extraFields": []
   },
