@@ -43,7 +43,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "TS 类型一",
+    "title": "TS 基本类型一",
     "headers": [
       {
         "level": 2,

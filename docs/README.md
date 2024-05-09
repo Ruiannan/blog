@@ -4,7 +4,7 @@ title: 首页
 heroImage: https://avatars.githubusercontent.com/u/32606602?v=4
 actions:
   - text: Get Started
-    link: /getting-started.html
+    link: https://github.com/Ruiannan/blog
     type: primary
 
   - text: Introduction

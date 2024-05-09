@@ -1,4 +1,4 @@
-<template><div><h1 id="ts-类型一" tabindex="-1"><a class="header-anchor" href="#ts-类型一"><span>TS 类型一</span></a></h1>
+<template><div><h1 id="ts-基本类型一" tabindex="-1"><a class="header-anchor" href="#ts-基本类型一"><span>TS 基本类型一</span></a></h1>
 <p>基础类型、高级类型</p>
 <h2 id="基础类型" tabindex="-1"><a class="header-anchor" href="#基础类型"><span>基础类型</span></a></h2>
 <h3 id="数字类型" tabindex="-1"><a class="header-anchor" href="#数字类型"><span>数字类型</span></a></h3>
