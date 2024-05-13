@@ -144,7 +144,7 @@ interface Nature {
 }
 
 class Tree implements Nature {
-  a: string;
+  a = "hahahha";
 }
 
 // 2. js中构造函数不能重载，一个类有且仅有一个 constructor。如果实例化的时候不知道传入的值，可以使用?（可选项），或者赋值默认值
@@ -178,7 +178,9 @@ console.log("testVal1==>: ", testVal1.nameValue);
 ```javascript
 // 1. 使用 class 关键字定义的称之为类。可以使用 implements 关键字，通过类来实现某个接口 interface
 var Tree = /** @class */ (function () {
-  function Tree() {}
+  function Tree() {
+    this.a = "hahahha";
+  }
   return Tree;
 })();
 

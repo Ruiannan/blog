@@ -222,6 +222,71 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "TS 项目三",
+    "headers": [
+      {
+        "level": 2,
+        "title": "编译上下文",
+        "slug": "编译上下文",
+        "link": "#编译上下文",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "类型声明空间",
+        "slug": "类型声明空间",
+        "link": "#类型声明空间",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "模块",
+        "slug": "模块",
+        "link": "#模块",
+        "children": [
+          {
+            "level": 3,
+            "title": "全局模块",
+            "slug": "全局模块",
+            "link": "#全局模块",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "文件模块",
+            "slug": "文件模块",
+            "link": "#文件模块",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "文件模块的导入导出",
+            "slug": "文件模块的导入导出",
+            "link": "#文件模块的导入导出",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "模块路径",
+        "slug": "模块路径",
+        "link": "#模块路径",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "命名空间",
+        "slug": "命名空间",
+        "link": "#命名空间",
+        "children": []
+      }
+    ],
+    "path": "/posts/3TS%E9%A1%B9%E7%9B%AE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",

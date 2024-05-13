@@ -1,4 +1,4 @@
-export const categoriesMap = {"category":{"/":{"path":"/category/","map":{"TS":{"path":"/category/ts/","indexes":[0,1]}}}},"tag":{"/":{"path":"/tag/","map":{"TS":{"path":"/tag/ts/","indexes":[0,1]}}}}};
+export const categoriesMap = {"category":{"/":{"path":"/category/","map":{"TS":{"path":"/category/ts/","indexes":[0,1,2]}}}},"tag":{"/":{"path":"/tag/","map":{"TS":{"path":"/tag/ts/","indexes":[0,1,2]}}}}};
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept();
